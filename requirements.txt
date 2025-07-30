@@ -1,0 +1,4 @@
+Flask==2.3.3
+azure-devops==7.1.0b4
+msrest==0.7.1
+requests==2.31.0
