@@ -1,5 +1,9 @@
 from flask import Flask, render_template, request, flash, redirect, url_for, jsonify
 import os
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
 import zipfile
 import tempfile
 import shutil
